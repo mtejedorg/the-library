@@ -10,6 +10,9 @@ default_dirs:
     - global: ~/.claude/commands/
 
 library:
-  skills: []
+  skills:
+    - name: cv-builder
+      description: Tailor a CV, cover letter and project portfolio to a job posting from a private profile; truthfulness gate, proof points, A4 PDF toolchain, privacy check.
+      source: https://github.com/mtejedorg/cv-builder/blob/main/.claude/skills/cv-builder/SKILL.md
   agents: []
   prompts: []
