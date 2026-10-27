@@ -13,6 +13,6 @@ library:
   skills:
     - name: cv-builder
       description: Tailor a CV, cover letter and project portfolio to a job posting from a private profile; truthfulness gate, proof points, A4 PDF toolchain, privacy check.
-      source: https://github.com/mtejedorg/cv-builder/blob/main/.claude/skills/cv-builder/SKILL.md
+      source: https://github.com/mtejedorg/cvkit/blob/main/.claude/skills/cv-builder/SKILL.md
   agents: []
   prompts: []
