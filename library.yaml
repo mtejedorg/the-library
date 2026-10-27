@@ -14,5 +14,13 @@ library:
     - name: cv-builder
       description: Tailor a CV, cover letter and project portfolio to a job posting from a private profile; truthfulness gate, proof points, A4 PDF toolchain, privacy check.
       source: https://github.com/mtejedorg/cvkit/blob/main/.claude/skills/cv-builder/SKILL.md
+    - name: portfolio
+      description: Portfolio hub and project sites on GitHub Pages from one manifest contract; owner and URLs from the git remote; persona panel review.
+      source: https://github.com/mtejedorg/cvkit/blob/main/.claude/skills/portfolio/SKILL.md
+      requires: [skill:cv-builder]
+    - name: linkedin
+      description: Audit and rewrite LinkedIn sections within limits, draft posts and messages, from the candidate profile; persona panel review.
+      source: https://github.com/mtejedorg/cvkit/blob/main/.claude/skills/linkedin/SKILL.md
+      requires: [skill:cv-builder]
   agents: []
   prompts: []
